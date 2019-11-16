@@ -16,13 +16,13 @@
         {
           "iconImg":"",
           "title": "layui内链",
-          "href": "http://www.layui.com/doc",
+          "href": "https://www.layui.com/doc",
           "spread": false
         },
         {
           "iconImg":"",
           "title": "layui外链",
-          "href": "http://www.layui.com/doc",
+          "href": "https://www.layui.com/doc",
           "spread": false,
           "target": "_blank"
         }
@@ -60,7 +60,7 @@
         {
           "iconImg":"",
           "title": "layui文档",
-          "href": "http://www.layui.com/doc",
+          "href": "https://www.layui.com/doc",
           "spread": false
         }
       ]
@@ -68,7 +68,7 @@
     {
       "iconImg":"files",
       "title": "bootstrap",
-      "href": "http://www.bootcss.com/",
+      "href": "https://www.bootcss.com/",
       "spread": false,
       "target": "_blank"
     }
@@ -103,7 +103,7 @@
         {
           "iconImg":"",
           "title": "B站视频",
-          "href": "http://www.bilibili.com/",
+          "href": "https://www.bilibili.com/",
           "spread": false
         }
       ]
