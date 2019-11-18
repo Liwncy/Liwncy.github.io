@@ -68,7 +68,7 @@ layui.define(["element","jquery"],function(exports){
 	Tab.prototype.render = function() {
 		//显示左侧菜单
 		var _this = this;
-		$("#navBar ul").html('<li class="dash"><a href="page/login.html" title="" class="active" target="frame"><span>My 首页</span></a></li>').append(_this.navBar(dataStr));
+		$("#navBar ul").html('<li class="dash"><a href="public/index/welcome.html" title="" class="active" target="frame"><span>My 首页</span></a></li>').append(_this.navBar(dataStr));
 		element.init();  //初始化页面元素
 	};
 
