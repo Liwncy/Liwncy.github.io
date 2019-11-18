@@ -1,1 +1,1 @@
-https://liwcblog.github.io
+https://LiwcBlog.github.io
