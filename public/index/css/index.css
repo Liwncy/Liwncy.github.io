@@ -10,11 +10,11 @@ iframe{
 /* ==========  左侧菜单栏  ========== */
 /* 左侧整体 */
 #leftSide {
-    padding-bottom: 5px;
+    padding-bottom: 1vh;
 }
 /* 左侧菜区 */
 #leftSide .navBar{
-    height:403px;
+    height:57vh;
     overflow-y:auto;
 }
 /* ==========  右侧主页面  ========== */
@@ -23,19 +23,19 @@ iframe{
     padding-bottom: 0;
 }
 #rightSide #main{
-    height: 620px;
+    height: 90vh;
     width: 100%;
-    margin: 0 10px 0 1%;
+    margin: -10px 5vh 0 1vh;
 }
 /* 右侧底部 */
 #footer .wrapper {
-    padding: 5px 0 5px 222px;
+    padding: 1vh 0 1vh 60vh;
     align-items: center;
 }
 /* Content */
 #navBar::-webkit-scrollbar { width: 0 !important }
 .mHide {
     float: left;
-    padding: 8px 10px 5px 0;
-    margin-left: 10px;
+    padding: 1vh 1vh 1vh 1vh;
+    margin-left: 1vh;
 }

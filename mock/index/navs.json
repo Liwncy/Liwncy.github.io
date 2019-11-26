@@ -21,6 +21,12 @@
         },
         {
           "iconImg":"",
+          "title": "makedown",
+          "href": "src/app/widgets/markdown.html",
+          "spread": false
+        },
+        {
+          "iconImg":"",
           "title": "模版Dome",
           "href": "https://liwncy.github.io/plugins/crown/index.html",
           "spread": false,
