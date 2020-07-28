@@ -1,4 +1,5 @@
 目录结构:
+```
   ├── mock                     # 本地模拟数据
   ├── public
   │   └── favicon.ico          # Favicon
@@ -19,3 +20,4 @@
   ├── tests                    # 测试工具
   ├── README.md
   └── package.json
+```
