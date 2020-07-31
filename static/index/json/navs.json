@@ -20,7 +20,7 @@
           "spread": false
         },
         {
-          "icon":"&#xe643;",
+          "icon":"",
           "title": "makedown",
           "href": "src/app/widgets/markdown.html",
           "spread": false
