@@ -42,6 +42,7 @@ layui.define(["element","jquery"],function(exports){
                     }
                 }
                 ulHtml += '<cite>'+data[i].title+'</cite>';
+				ulHtml += '<strong>'+data[i].children.length+'</strong>';
                 ulHtml += '<span class="layui-nav-more"></span>';
                 ulHtml += '</a>';
                 ulHtml += '<dl class="layui-nav-child">';

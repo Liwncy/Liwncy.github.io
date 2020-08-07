@@ -2,10 +2,37 @@
   "base": [
     {
       "icon":"&#xe643;",
-      "title": "我的博客",
-      "href": "https://LiwcBlog.github.io",
+      "title": "我的信息",
+      "href": "",
       "spread": false,
-      "target": "_blank"
+      "children":[
+        {
+          "icon":"",
+          "title": "个人信息",
+          "href": "view/base/",
+          "spread": false
+        },
+        {
+          "icon":"",
+          "title": "我的博客",
+          "href": "https://LiwcBlog.github.io",
+          "spread": false,
+          "target": "_blank"
+        },
+        {
+          "icon":"",
+          "title": "畅所欲言",
+          "href": "view/base/speakfreely/speakfreely.html",
+          "spread": false
+        },
+        {
+          "icon":"",
+          "title": "样式参考",
+          "href": "https://liwncy.github.io/static/plugins/crown/index.html",
+          "spread": false,
+          "target": "_blank"
+        }
+      ]
     },
     {
       "icon":"&#xe643;",
@@ -24,13 +51,6 @@
           "title": "makedown",
           "href": "src/app/widgets/markdown.html",
           "spread": false
-        },
-        {
-          "icon":"",
-          "title": "参考项目",
-          "href": "https://liwncy.github.io/plugins/crown/index.html",
-          "spread": false,
-          "target": "_blank"
         }
       ]
     },
