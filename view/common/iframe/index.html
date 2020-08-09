@@ -14,27 +14,45 @@
 <body>
 
 </body>
-<script type="text/javascript" src="../../../static/plugins/layui/layui.js"></script>
+<!--<script type="text/javascript" src="../../../static/plugins/layui/layui.js"></script>-->
+<!--<script type="text/javascript" src="https://requirejs.org/docs/release/2.3.6/comments/require.js"></script>-->
 <script>
     //function f() {
-    layui.use(['form','element','layer','jquery'],function() {
-        var form = layui.form,
-            layer = parent.layer === undefined ? layui.layer : top.layer,
-            element = layui.element;
-        $ = layui.jquery;
-        // layer.open({
-        //     type: 2,
-        //     skin: 'layui-layer-demo', //样式类名
-        //     title: '标题',
-        //     closeBtn: 0, //不显示关闭按钮
-        //     anim: 2,
-        //     area: ['893px', '600px'],
-        //     shadeClose: true, //开启遮罩关闭
-        //     content: 'https://liwncy.github.io/view/base/speakfreely'
-        // });
-        window.open('https://liwncy.github.io/view/base/speakfreely', '_self');
-    })
+    // layui.use(['form','element','layer','jquery'],function() {
+    //     var form = layui.form,
+    //         layer = parent.layer === undefined ? layui.layer : top.layer,
+    //         element = layui.element;
+    //     $ = layui.jquery;
+    //     layer.open({
+    //         type: 2,
+    //         skin: 'layui-layer-demo', //样式类名
+    //         title: '标题',
+    //         closeBtn: 0, //不显示关闭按钮
+    //         anim: 2,
+    //         area: ['893px', '600px'],
+    //         shadeClose: true, //开启遮罩关闭
+    //         content: 'https://liwncy.github.io/view/base/speakfreely'
+    //     });
+    //     window.open('https://liwncy.github.io/view/base/speakfreely', '_self');
+    // })
     //}
+    // 1.注册Service Worker
+    navigator.serviceWorker.register('./sw-proxy.js');
+
+    // 2.拦截请求（sw-proxy.js）
+    self.addEventListener('fetch', async (event) => {
+        debugger;
+        const {request} = event;
+        let response = await fetch(request);
+        // 3.重新构造Response
+        response = new Response(response.body, response)
+        // 4.篡改响应头
+        response.headers.delete('Content-Security-Policy');
+        response.headers.delete('X-Frame-Options');
+
+        event.respondWith(Promise.resolve(originalResponse));
+    });
+
     // const https = require("https");
     // const querystring = require("querystring");
     // const url = require("url");
