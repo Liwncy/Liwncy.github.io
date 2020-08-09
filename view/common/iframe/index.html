@@ -14,9 +14,26 @@
 <body>
 
 </body>
+<script type="text/javascript" src="../../../static/plugins/layui/layui.js"></script>
 <script>
     //function f() {
-        window.open("https://liwncy.github.io/view/base/speakfreely");//打开窗口
+    layui.use(['form','element','layer','jquery'],function() {
+        var form = layui.form,
+            layer = parent.layer === undefined ? layui.layer : top.layer,
+            element = layui.element;
+        $ = layui.jquery;
+        // layer.open({
+        //     type: 2,
+        //     skin: 'layui-layer-demo', //样式类名
+        //     title: '标题',
+        //     closeBtn: 0, //不显示关闭按钮
+        //     anim: 2,
+        //     area: ['893px', '600px'],
+        //     shadeClose: true, //开启遮罩关闭
+        //     content: 'https://liwncy.github.io/view/base/speakfreely'
+        // });
+        window.open('https://liwncy.github.io/view/base/speakfreely', '_self');
+    })
     //}
     // const https = require("https");
     // const querystring = require("querystring");
