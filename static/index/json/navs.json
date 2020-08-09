@@ -27,6 +27,12 @@
         },
         {
           "icon":"",
+          "title": "畅所欲言2",
+          "href": "public/index/speakfreely.html",
+          "spread": false
+        },
+        {
+          "icon":"",
           "title": "样式参考",
           "href": "https://liwncy.github.io/static/plugins/crown/index.html",
           "spread": false,
