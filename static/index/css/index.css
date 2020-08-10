@@ -98,6 +98,7 @@ iframe{ position:absolute; height:100%; width:100%; border:none;}
 /*左侧导航
 ==============================================*/
 .layui-bg-black { background: url(../images/backgrounds/bodyBg.png) repeat-y !important;}
+.sidebarSep { background: url(../images/sidebarSep.png) no-repeat 150%; height: 8px; width: 100%; margin: 16px 10px 16px 3px; }
 /*.layui-bg-black {background: url(../images/backgrounds/leftTop.png) repeat-y !important;}*/
 .layui-nav{background-color: inherit !important;}
 .showMenu.layui-layout-admin .layui-side{ left:-200px; }
