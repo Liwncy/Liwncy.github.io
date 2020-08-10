@@ -228,6 +228,9 @@ iframe{ position:absolute; height:100%; width:100%; border:none;}
 .header .layui-nav .layui-nav-item,.header .layui-nav .layui-nav-item>a,.header,.logo{ line-height:30px !important; max-height:30px; !important;}
 .mobileTopLevelMenus{ float:left;}
 .hideMenu{ margin-top: 0px;}
+.layui-nav {
+    padding: 0px 3px;
+}
 .layui-tab {
     margin: 0 0;
     text-align: left!important;
