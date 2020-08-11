@@ -139,7 +139,7 @@ layui.use(['bodyTab','form','element','layer','jquery'],function(){
 			setInterval(function(){
 				var num = Math.floor(Math.random() * (res.length-1) + 1);
 				$(".footer p span").text(res.filter(item => item.no === num )[0].words);
-			},5000)
+			},10000)
 		});
 	}
 
