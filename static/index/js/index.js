@@ -142,12 +142,37 @@ layui.use(['bodyTab','form','element','layer','jquery'],function(){
 			},10000)
 		});
 	}
+	// https://api.github.com/users/liwncy
+	function getGitInfo(){
+		$.ajax({
+			url:"https://api.github.com/users/liwncy",
+			data:{'id':''},
+			type:"get",
+			dataType:"json",
+			success:function(data){
+				console.log(data);
+				$('#userInfo img').attr("src",data.avatar_url);
+				$('#userInfo cite.adminName').text(data.name);
+
+				$('.user-photo img').attr("src",data.avatar_url);
+				$('.user-photo span').text(data.name);
+
+				//location.reload(); //删除成功后再刷新
+			},
+			error:function(data){
+				layer.msg("此github用户不存在!");
+			}
+		});
+	}
 
 	$(function() {
+		//获取
 		//通过顶部菜单获取左侧二三级菜单   注：此处只做演示之用，实际开发中通过接口传参的方式获取导航数据
 		getData("base");
 		//
 		getChickenSoup();
+		//
+		//getGitInfo();
 	});
 
 })
