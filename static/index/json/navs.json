@@ -37,20 +37,26 @@
     },
     {
       "icon":"&#xe643;",
-      "title": "参考文档",
+      "title": "MARKDOWN",
       "href": "",
       "spread": false,
       "children":[
         {
           "icon":"",
-          "title": "layui内链",
-          "href": "https://www.layui.com/doc",
+          "title": "参考文档",
+          "href": "https://guides.github.com/features/mastering-markdown",
           "spread": false
         },
         {
           "icon":"",
-          "title": "makedown",
-          "href": "src/app/widgets/markdown.html",
+          "title": "在线编辑",
+          "href": "view/base/markdown/onediting.html",
+          "spread": false
+        },
+        {
+          "icon":"",
+          "title": "我的笔记",
+          "href": "view/base/markdown/mdnotes.html",
           "spread": false
         }
       ]
