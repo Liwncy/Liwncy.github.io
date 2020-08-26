@@ -12,6 +12,7 @@ layui.use(['form','element','layer','jquery'],function(){
         })
     }
     $("#randomNote").click(function(){
+        console.log(urls);
         let num = Math.floor(Math.random() * (urls.length-1) + 1);
         // let url = "https://cdn.jsdelivr.net/gh/liwncy/onenotes/java/stream.md";
         let url = urls[num];
