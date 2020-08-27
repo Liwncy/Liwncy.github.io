@@ -40,7 +40,7 @@ body {
 
 @media (min-width: 40rem) {
 	#sidebar {
-	width: 280px;
+	width: 250px;
     position: fixed;
     height: 100%;
     margin-right: 20px;
@@ -145,8 +145,8 @@ input.searchButton {
 
 @media (min-width: 40rem) {
 	#content {
-		width: 580px;
-		padding-left:330px;
+		width: 800px;
+		padding-left:300px;
 		margin-left: 0px;
 		margin-right: 0px;
 	}
@@ -296,7 +296,7 @@ input.searchButton {
     width: 70px;
     top: 20px;
 
-    margin-left: 930px;
+    margin-left: 1200px;
     margin-top: 0px;
 
     color: #FFF;
@@ -322,7 +322,7 @@ input.searchButton {
     width: 70px;
     top: 45px;
 
-    margin-left: 930px;
+    margin-left: 1200px;
     margin-top: 0px;
 
     color: #FFF;
