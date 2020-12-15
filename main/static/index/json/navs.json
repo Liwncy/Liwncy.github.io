@@ -56,7 +56,7 @@
         {
           "icon":"",
           "title": "我的笔记",
-          "href": "onemark/",
+          "href": "/onemark/",
           "spread": false
         }
       ]
