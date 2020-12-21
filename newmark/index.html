@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>OneNotes</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/marked.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/ditto.js"></script>
+    <script src="js/prism.js"></script>
+</head>
+<body>
+<div id="app">
+    <el-container>
+        <!--侧边栏-->
+        <el-aside :width="aside_width">
+            <sidebar ref="sidebar" @menuChange="menuChange"/>
+        </el-aside>
+        <el-container>
+            <el-header>
+                <el-button @click="getMd" type="primary" plain>换个</el-button>
+            </el-header>
+            <el-main>
+                <div id="content"></div>
+                <!-- optional -->
+                <div id="back_to_top">back to top</div>
+                <div id="edit">edit</div>
+                <div id="loading">Loading ...</div>
+                <div id="error">Oops! ... File not found!</div>
+                <div id="flip"><div id="pageup">上一章</div><div id="pagedown">下一章</div></div>
+                <div class="progress-indicator-2"></div>
+            </el-main>
+            <el-footer>Footer</el-footer>
+        </el-container>
+    </el-container>
+</div>
+</body>
+<!-- import Vue before Element -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="./js/marked.js"></script>
+<!--导航栏-->
+<script src="./components/Sidebar.js"></script>
+<!--<script src="./Content.js"></script>-->
+<!---->
+
+
+<script type="module">
+    new Vue({
+        el: '#app',
+        data: {
+            //侧边栏
+            aside_width: '250px',
+        },
+        components: {
+            'sidebar': Sidebar
+        },
+        created() {
+            console.log(Sidebar);
+        },
+        methods: {
+            getMd() {
+                router();
+            },
+            menuChange(id){
+                router(id);
+            }
+        }
+    })
+</script>
+
+<style>
+    .el-header, .el-footer {
+        background-color: #B3C0D1;
+        color: #333;
+        text-align: center;
+        line-height: 60px;
+    }
+
+    .el-aside {
+        background-color: #D3DCE6;
+        color: #333;
+        text-align: center;
+        /*line-height: 200px;*/
+    }
+
+    .el-main {
+        background-color: #E9EEF3;
+        color: #333;
+        /*text-align: center;*/
+        /*line-height: 160px;*/
+    }
+
+    body > .el-container {
+        margin-bottom: 40px;
+    }
+
+    .el-container:nth-child(5) .el-aside,
+    .el-container:nth-child(6) .el-aside {
+        line-height: 260px;
+    }
+
+    .el-container:nth-child(7) .el-aside {
+        line-height: 320px;
+    }
+</style>
+</html>
