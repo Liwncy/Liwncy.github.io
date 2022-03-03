@@ -1,9 +1,20 @@
 # [Notes]()
 
-###[java](#/Liwncy/onenotes/tree/master/java)
+### css
+####[你可能会用到的15个前端小技巧](#/css/%E4%BD%A0%E5%8F%AF%E8%83%BD%E4%BC%9A%E7%94%A8%E5%88%B0%E7%9A%8415%E4%B8%AA%E5%89%8D%E7%AB%AF%E5%B0%8F%E6%8A%80%E5%B7%A7)
+### java
+####[JavaStudy](#/java/JavaStudy)
+####[Mybatis-Plus简述](#/java/Mybatis-Plus%E7%AE%80%E8%BF%B0)
 ####[stream](#/java/stream)
-###[js](#/Liwncy/onenotes/tree/master/js)
-####[ECMAScript 6 入门](#/Liwncy/onenotes/tree/master/js/ECMAScript%206%20%E5%85%A5%E9%97%A8)
+### js
+#### 127个常用的JS代码片段
+#####[JS代码片段(1)](#/js/127%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5(1))
+#####[JS代码片段(2)](#/js/127%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5(2))
+#####[JS代码片段(3)](#/js/127%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5(3))
+#####[JS代码片段(4)](#/js/127%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5(4))
+#####[JS代码片段(5)](#/js/127%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5(5))
+#####[JS代码片段(6)](#/js/127%E4%B8%AA%E5%B8%B8%E7%94%A8%E7%9A%84JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5/JS%E4%BB%A3%E7%A0%81%E7%89%87%E6%AE%B5(6))
+#### ECMAScript 6 入门
 #####[00-前言](#/js/ECMAScript%206%20%E5%85%A5%E9%97%A8/00-%E5%89%8D%E8%A8%80)
 #####[01-ECMAScript 6简介](#/js/ECMAScript%206%20%E5%85%A5%E9%97%A8/01-ECMAScript%206%E7%AE%80%E4%BB%8B)
 #####[02-let 和 const 命令](#/js/ECMAScript%206%20%E5%85%A5%E9%97%A8/02-let%20%E5%92%8C%20const%20%E5%91%BD%E4%BB%A4)
@@ -40,5 +51,8 @@
 #####[fp](#/js/ECMAScript%206%20%E5%85%A5%E9%97%A8/fp)
 #####[mixin](#/js/ECMAScript%206%20%E5%85%A5%E9%97%A8/mixin)
 #####[simd](#/js/ECMAScript%206%20%E5%85%A5%E9%97%A8/simd)
+####[JS几个小技巧](#/js/JS%E5%87%A0%E4%B8%AA%E5%B0%8F%E6%8A%80%E5%B7%A7)
 ####[array](#/js/array)
+###[MD语法入门](#/MD%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8)
 ###[readme](#/readme)
+
