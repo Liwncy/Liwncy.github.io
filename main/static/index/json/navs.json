@@ -14,12 +14,6 @@
         },
         {
           "icon":"",
-          "title": "CHATGPT",
-          "href": "../chatgpt/",
-          "spread": false
-        },
-        {
-          "icon":"",
           "title": "我的博客",
           "href": "https://LiwcBlog.github.io",
           "spread": false,
