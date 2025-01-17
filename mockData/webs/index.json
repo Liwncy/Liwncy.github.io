@@ -6,7 +6,7 @@
       "children": [
         {
           "id": 1,
-          "title": "知乎",
+          "title": "知乎1",
           "subTitle": "zhihu",
           "sourceId": "zhihu",
           "tabNames": ["热榜"]
