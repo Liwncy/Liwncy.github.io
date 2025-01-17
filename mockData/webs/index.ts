@@ -71,6 +71,13 @@ const sidMenu = [
                 sourceId: "geekpark",
                 tabNames: ["最新发布", "AI新浪潮", "造车新观察", "心科技", "底稿对话CEO", "行业资讯"],
             },
+            {
+                id: 3,
+                title: "InfoQ",
+                subTitle: "infoq",
+                sourceId: "infoq",
+                tabNames: ["AI&大模型","后端","大前端","大数据","架构","7天热榜","1个月热榜","6个月热榜"],
+            },
         ],
     },
     {
