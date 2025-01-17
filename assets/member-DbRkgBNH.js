@@ -1,0 +1,1 @@
+import{n as t,a as o}from"./index-AaWnK9lM.js";const r={class:"markdown-body"},m={},_={__name:"member",setup(a,{expose:e}){return e({frontmatter:{}}),(n,s)=>(o(),t("div",r))}};export{_ as default,m as frontmatter};
