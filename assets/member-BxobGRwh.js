@@ -1,1 +1,0 @@
-import{n as t,b as o}from"./index-BC34xMED.js";const r={class:"markdown-body"},m={},_={__name:"member",setup(n,{expose:e}){return e({frontmatter:{}}),(s,a)=>(o(),t("div",r))}};export{_ as default,m as frontmatter};
