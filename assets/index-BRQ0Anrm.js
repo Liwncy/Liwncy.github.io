@@ -1,1 +1,0 @@
-import{ah as n}from"./index-B-bRT4PR.js";const c=function(r,t={}){const e="https://api.yujn.cn"+r+"?type=json",o=`https://lwcorspro.dpdns.org?url=${encodeURIComponent(e)}`;return n.request("GET",o,{params:t})};export{c as r};
