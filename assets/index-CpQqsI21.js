@@ -1,1 +1,0 @@
-import{ah as p}from"./index-3I5B3wp3.js";const a=function(e,n={}){let t=!e.includes("type=");const o="https://api.yujn.cn"+e+(t?"?type=json":""),r=`https://lwcorspro.dpdns.org?url=${encodeURIComponent(o)}`;return t?p.request("GET",r,{params:n}):new Promise((s,i)=>{s({code:200,url:r+"&time="+new Date().getTime()})})};export{a as r};
