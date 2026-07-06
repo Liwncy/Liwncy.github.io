@@ -1,1 +1,0 @@
-import{M as r}from"./index-D_U-TA1C.js";const o=r("article",{state:()=>({articleInfo:{}}),actions:{setArticleInfo(t,e){this.articleInfo={dataList:t,curData:e}}},persist:{paths:["articleInfo"]}});export{o as u};
